@@ -1,0 +1,42 @@
+site_name: Eve Count Workshops
+site_description: Hands-on AI, Multimodal Systems, Sparse Adaptation, and Quantum Computing workshops by Gwen Lim (Eve Count, Singapore).
+site_url: https://evecount.github.io/workshops/
+repo_url: https://github.com/evecount/workshops
+repo_name: evecount/workshops
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - tables
+
+nav:
+  - Home: index.md
+  - Applied AI Workshops: ai-systems.md
+  - Quantum & Physics Labs: quantum.md
+  - Formats & Booking: booking.md
