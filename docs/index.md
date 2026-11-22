@@ -7,6 +7,7 @@
 These workshops turn Gwen Lim's open-source research repositories at **Eve Count** into structured, code-first sessions for engineering teams, universities, and builders. Every workshop pairs live architecture walkthroughs with runnable notebooks, benchmarks, and production patterns—from **Context-of-Interest Tokenization** and **Sparse Adapter Compression (CISAC)** to **AR + Diffusion Continuity** and **Quantum Rotation**.
 
 [Explore Applied AI Workshops](ai-systems.md){ .md-button .md-button--primary }
+[Live Spidered Repo Index](catalog.md){ .md-button }
 [Quantum & Physics Labs](quantum.md){ .md-button }
 [Formats & Booking](booking.md){ .md-button }
 
